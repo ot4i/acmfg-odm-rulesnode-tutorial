@@ -1,0 +1,11 @@
+# Vocabulary Properties
+uuid = e24854aa-1032-40d0-bcf5-9c5aab96cf6a
+
+# AirConditionerObject
+AirConditionerObject#concept.label = air conditioner object
+AirConditionerObject.humidity#phrase.action = set the humidity of {this} to {humidity}
+AirConditionerObject.humidity#phrase.navigation = {humidity} of {this}
+AirConditionerObject.status#phrase.action = set the status of {this} to {status}
+AirConditionerObject.status#phrase.navigation = {status} of {this}
+AirConditionerObject.temperature#phrase.action = set the temperature of {this} to {temperature}
+AirConditionerObject.temperature#phrase.navigation = {temperature} of {this}

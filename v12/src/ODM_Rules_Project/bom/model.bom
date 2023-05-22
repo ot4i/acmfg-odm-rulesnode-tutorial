@@ -1,0 +1,16 @@
+
+property loadGetterSetterAsProperties "true"
+property origin "xom:/ODM_Rules_Project/C:/SchemaFiles/SimpleAirConditionerObject.xsd"
+property uuid "71aff3ee-f61b-479e-b741-a7cfc685b720"
+
+public class AirConditionerObject
+        extends ilog.rules.xml.IlrXmlObject
+{
+    public float humidity;
+    public string status;
+    public float temperature;
+    public AirConditionerObject();
+    public void setUnknownHumidity();
+    public void setUnknownTemperature();
+}
+

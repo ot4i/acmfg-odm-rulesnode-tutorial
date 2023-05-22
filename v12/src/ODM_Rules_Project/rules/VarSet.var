@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:VariableSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>VarSet</name>
+  <uuid>ce94ddf1-4cd7-4502-b20c-b5d746c6700e</uuid>
+  <variables name="ACObject" type="AirConditionerObject" initialValue="" verbalization="ACObject"/>
+</ilog.rules.studio.model.base:VariableSet>
