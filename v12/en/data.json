@@ -206,10 +206,19 @@
 										"details": "In the sample example, we create XOM using the XML schema definition 'SimpleAirConditionerObject.xsd' which is located under the App_OPCUA_ODM --> XML and DFDL Schemas, under the Application Development. "
 									},
 									{
+										"details": "Sample Rule project for reference is located under the <b>Independent Resources</b> as ODM_Rules_Project, under the Application Development. You can export this project as an archive file and import in the Rules Designer using the import option for Existing project into workspace. After import, you can refer to the example Decision Table, Deployment Configuration, DecisionOperation and VariableSet."
+									},
+									{
+										"details": "Please note that these examples are provided for learning purpose only. The actual schema and rules will depend on your specific OPC Server and configurations."
+									},
+									{
 										"details": "In this example, we have specified the 'temperature' and 'humidity' as input values and the outcome of the Decision Rule is expected in the 'status' parameter."
 									},
 									{
 										"details": "For more details on the creating XOM and BOM  please refer to https://www.ibm.com/docs/en/odmoc?topic=model-overview-dynamic-execution-object-xom"
+									},
+									{
+										"details": "Following steps describe how to create the Rules from the sample SimpleAirConditionerObject.xsd."
 									},
 									{
 										"details": "Import the sample SimpleAirConditionerObject.xsd in the Rules project --> Import XOM  , using the Rules Designer."
